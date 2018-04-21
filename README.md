@@ -1,43 +1,53 @@
 # sportdec-football
 Command line application using Github API and Twitter API.
 
-# Project Title
-
-One Paragraph of project description goes here
-
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To get the application you can download the project as a zip
+or you can use the git bash and the follow command: 
+```
+git clone https://github.com/xDouglasx/sportdec-football
+```
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+JDK 1.8
+Maven 
+Eclipse(Optional)
+You will need a Consumer Key and Consumer Secret that you can get on the follow link:
+(https://apps.twitter.com/)
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+After downloading or cloning the project, on the main folder
+open your cmd, i suggest you to use [Cmder](http://cmder.net/) if you are using windows
+and run the command 
 
 ```
-until finished
+mvn install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## Running the application
 
-## Running the tests
+to run the application you need provide 3 informations
+ * Consumer key
+ * consumer Secret
+ * Keyword
 
-Explain how to run the automated tests for this system
+ if you dont provide a keyword, the application will search for projects related with "Football"
+ If you provide a invalid consumer key or a invalid consumer secret the application wont retrieve no one tweet about the projects found on github
+
+ to run right the follow command:
+```
+java -jar target/sportdec-football.jar <consumer key> <consumer secret> <keyword>
+```
+
+if you dont want to create a consumer key and a consumer secret i will let mine for you to use.
+```
+consumer key: AXE7tAccsKLWiHFxpyBHIegtd
+consumer secret: 9MxkdUtf1ajiyEctj6aj7yijP91BHzkNiygX6JDje75AzB8vwB
+```
+ 
 
 ### Break down into end to end tests
 
