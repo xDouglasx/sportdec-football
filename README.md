@@ -37,7 +37,7 @@ to run the application you need provide 3 informations
  if you dont provide a keyword, the application will search for projects related with "Football"
  If you provide a invalid consumer key or a invalid consumer secret the application wont retrieve no one tweet about the projects found on github
 
- to run right the follow command:
+ to run the application use the command:
 ```
 java -jar target/sportdec-football.jar <consumer key> <consumer secret> <keyword>
 ```
