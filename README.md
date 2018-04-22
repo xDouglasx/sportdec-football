@@ -20,8 +20,8 @@ git clone https://github.com/xDouglasx/sportdec-football
 ### Installing
 
 After downloading or cloning the project, on the main folder
-open your cmd, i suggest you to use [Cmder](http://cmder.net/) if you are using windows
-and run the command 
+open your cmd, i suggest you to use [Cmder](http://cmder.net/) or git bash
+and run the command
 
 ```
 mvn install
